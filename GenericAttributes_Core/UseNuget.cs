@@ -1,6 +1,20 @@
-﻿namespace GenericAttributes_Core;
+﻿
 
+
+using Nuget;
+
+namespace GenericAttributes_Core;
+
+[Nuget<DerivedFromParentClass, MyStruct>]
 public record UseNuget();
+
+public class DerivedFromParentClass: ParentClass
+{
+}
+
+public struct MyStruct
+{
+}
 
 [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
 sealed class TestAttribute<T> : Attribute
