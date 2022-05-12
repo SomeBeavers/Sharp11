@@ -19,8 +19,15 @@
         {
             checked
             {
-                var s = o1++;
-                var s2 = (o1++);
+                var s = o1++/*caret*/;
+                
+            }
+
+            var s2 = o1++;
+
+            unchecked
+            {
+                o1++;
             }
         }
     }

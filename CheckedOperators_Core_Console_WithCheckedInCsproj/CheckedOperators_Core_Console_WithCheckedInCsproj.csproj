@@ -8,6 +8,15 @@
 	  <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+
   <ItemGroup>
     <ProjectReference Include="..\CheckedOperators_Core_Lib\CheckedOperators_Core_Lib.csproj" />
   </ItemGroup>

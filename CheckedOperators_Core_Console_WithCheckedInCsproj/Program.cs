@@ -1,8 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿var myClass = new MyClass();
+var s = myClass + new A();
+var @class = checked(myClass + myClass);
 
-using CheckedOperators_Core_Lib;
 
-Console.WriteLine("Hello, World!");
+class MyClass: A
+{
+    public static MyClass operator +(MyClass m1, MyClass t)
+    {
+        return null;
+    }
+}
 
-var typing = new Typing();
-var typing1 = typing++;
+internal class A
+{
+    public static A operator checked +(A m1, A m)
+    {
+        return new A();
+    }
+
+    public static A operator +(A m1, A m)
+    {
+        return null;
+    }
+}
