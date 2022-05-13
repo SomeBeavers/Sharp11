@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface1.cs" />
     <Compile Include="Overload1.cs" />
     <Compile Include="Overload2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

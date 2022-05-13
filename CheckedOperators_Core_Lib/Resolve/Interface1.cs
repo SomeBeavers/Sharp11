@@ -2,12 +2,12 @@
 
 public interface Interface1
 {
-    public static Interface1 operator checked *(Interface1 i1, Interface1 i2)
+    static Interface1 operator checked *(Interface1 i1, Interface1 i2)
     {
         return null;
     }
 
-    public static Interface1 operator *(Interface1 i1, Interface1 i2)
+    abstract static Interface1 operator *(Interface1 i1, Interface1 i2)
     {
         return null;
     }
