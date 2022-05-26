@@ -1,0 +1,10 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# C# files
+[*.cs]
+dotnet_diagnostic.CS9018.severity = warning
+dotnet_diagnostic.CS9019.severity = warning
+dotnet_diagnostic.CS9020.severity = warning
+dotnet_diagnostic.CS9021.severity = warning
+dotnet_diagnostic.CS9022.severity = warning
