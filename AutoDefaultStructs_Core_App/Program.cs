@@ -6,3 +6,4 @@ using AutoDefaultStructs_Nuget;
 Console.WriteLine("Hello, World!");
 
 new StructCor(new MyProp());
+new StructFromNuget();
