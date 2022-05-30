@@ -24,8 +24,8 @@ public struct C
     {
         // Is this warning expected?
         // CS9020: The 'this' object is read before all of its fields have been assigned, causing preceding implicit assignments of 'default' to non-explicitly assigned fields.
-        P = 5;
+       // P = 5;
     }
 
-    public int P { get => field; set => field = value; }
+
 }
