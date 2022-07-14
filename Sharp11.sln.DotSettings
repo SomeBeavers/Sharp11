@@ -13,4 +13,12 @@
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpKeepExistingMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpPlaceEmbeddedOnSameLineMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpUseContinuousIndentInsideBracesMigration/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B1496A755_002D94DE_002D11D0_002D8C3F_002D00C04FC2AAE2_007D_003A107/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B1496A755_002D94DE_002D11D0_002D8C3F_002D00C04FC2AAE2_007D_003A53/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B1496A755_002D94DE_002D11D0_002D8C3F_002D00C04FC2AAE2_007D_003A54/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B1496A755_002D94DE_002D11D0_002D8C3F_002D00C04FC2AAE2_007D_003A940/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B5EFC7975_002D14BC_002D11CF_002D9B2B_002D00AA00573819_007D_003A1106/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B5EFC7975_002D14BC_002D11CF_002D9B2B_002D00AA00573819_007D_003A935/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007B5EFC7975_002D14BC_002D11CF_002D9B2B_002D00AA00573819_007D_003A936/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Housekeeping/VsActionManager/SkipOverrideVsCommands/=_007BB61E1A20_002D8C13_002D49A9_002DA727_002DA0EC091647DD_007D_003A512/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
