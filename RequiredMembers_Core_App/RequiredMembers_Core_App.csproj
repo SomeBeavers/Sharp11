@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,15 @@
 
   <ItemGroup>
     <PackageReference Include="RequiredMembers_NugetCore" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RequiredMembers_Net6_Sharp11_ReferenceMe\RequiredMembers_Core_ReferenceMe.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Code\" />
+    <Folder Include="QF_CA\" />
   </ItemGroup>
 
 </Project>
