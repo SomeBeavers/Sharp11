@@ -73,9 +73,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredMembers_FrameworkLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequiredMembers_NugetCore", "RequiredMembers_NugetCore\RequiredMembers_NugetCore.csproj", "{D403B411-822E-46E7-9DD3-4CE5A978678B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredMembers_Core_ReferenceMe", "RequiredMembers_Net6_Sharp11_ReferenceMe\RequiredMembers_Core_ReferenceMe.csproj", "{30DE5400-A3B5-44EA-8F69-96A5D0A3732F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequiredMembers_Core_ReferenceMe", "RequiredMembers_Net6_Sharp11_ReferenceMe\RequiredMembers_Core_ReferenceMe.csproj", "{30DE5400-A3B5-44EA-8F69-96A5D0A3732F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredMembers_Net6", "RequiredMembers_Net6\RequiredMembers_Net6.csproj", "{EC6783D0-15F9-44E2-A9E9-44530F1A9021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequiredMembers_Net6", "RequiredMembers_Net6\RequiredMembers_Net6.csproj", "{EC6783D0-15F9-44E2-A9E9-44530F1A9021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredMembers_Multi", "RequiredMembers_Multi\RequiredMembers_Multi.csproj", "{F32FE153-17A3-4341-AF21-DCC72BBD4E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{EC6783D0-15F9-44E2-A9E9-44530F1A9021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6783D0-15F9-44E2-A9E9-44530F1A9021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6783D0-15F9-44E2-A9E9-44530F1A9021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32FE153-17A3-4341-AF21-DCC72BBD4E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32FE153-17A3-4341-AF21-DCC72BBD4E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32FE153-17A3-4341-AF21-DCC72BBD4E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32FE153-17A3-4341-AF21-DCC72BBD4E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +248,7 @@ Global
 		{D403B411-822E-46E7-9DD3-4CE5A978678B} = {33ACD804-BFFB-4134-B4EE-76E474F03F8A}
 		{30DE5400-A3B5-44EA-8F69-96A5D0A3732F} = {33ACD804-BFFB-4134-B4EE-76E474F03F8A}
 		{EC6783D0-15F9-44E2-A9E9-44530F1A9021} = {33ACD804-BFFB-4134-B4EE-76E474F03F8A}
+		{F32FE153-17A3-4341-AF21-DCC72BBD4E61} = {33ACD804-BFFB-4134-B4EE-76E474F03F8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E592602-AC00-40D0-8E2E-9ACA81DB0DF1}
