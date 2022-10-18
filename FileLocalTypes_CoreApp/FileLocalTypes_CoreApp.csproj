@@ -16,4 +16,8 @@
     <ProjectReference Include="..\FileLocalTypes_CoreLib\FileLocalTypes_CoreLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Refactorings\" />
+  </ItemGroup>
+
 </Project>

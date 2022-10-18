@@ -16,6 +16,7 @@
         {
             public DuplicatedClass(string s)
             {
+
             }
         }
 
