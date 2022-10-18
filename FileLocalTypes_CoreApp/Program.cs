@@ -18,3 +18,5 @@ public class UseInnerClassInTopLevel
         Console.WriteLine(classInTopLevel.Name);
     }
 }
+
+file class A{}

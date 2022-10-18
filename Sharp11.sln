@@ -91,6 +91,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileLocalTypes_Multi", "Fil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLocalTypes_Nuget", "FileLocalTypes_Nuget\FileLocalTypes_Nuget.csproj", "{E2DF8D0C-DC7B-401F-892E-1DE4E61210E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLocalTypes_Sharp10", "FileLocalTypes_Sharp10\FileLocalTypes_Sharp10.csproj", "{63957EFE-BDCD-44C2-9AEA-09E8AB8DA48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLocalTypes_Framework_Sharp10", "FileLocalTypes_Framework_Sharp10\FileLocalTypes_Framework_Sharp10.csproj", "{D081F226-25AE-4723-9D86-4D858E935B09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -245,6 +249,14 @@ Global
 		{E2DF8D0C-DC7B-401F-892E-1DE4E61210E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2DF8D0C-DC7B-401F-892E-1DE4E61210E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2DF8D0C-DC7B-401F-892E-1DE4E61210E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63957EFE-BDCD-44C2-9AEA-09E8AB8DA48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63957EFE-BDCD-44C2-9AEA-09E8AB8DA48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63957EFE-BDCD-44C2-9AEA-09E8AB8DA48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63957EFE-BDCD-44C2-9AEA-09E8AB8DA48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D081F226-25AE-4723-9D86-4D858E935B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D081F226-25AE-4723-9D86-4D858E935B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D081F226-25AE-4723-9D86-4D858E935B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D081F226-25AE-4723-9D86-4D858E935B09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +298,8 @@ Global
 		{72813872-0FC2-41B2-99ED-D5625D565D5B} = {E5C2B5C7-6C60-4240-8D15-5F549F3EF903}
 		{60B5C8BA-E279-415C-816F-B376D02549EA} = {E5C2B5C7-6C60-4240-8D15-5F549F3EF903}
 		{E2DF8D0C-DC7B-401F-892E-1DE4E61210E7} = {E5C2B5C7-6C60-4240-8D15-5F549F3EF903}
+		{63957EFE-BDCD-44C2-9AEA-09E8AB8DA48D} = {E5C2B5C7-6C60-4240-8D15-5F549F3EF903}
+		{D081F226-25AE-4723-9D86-4D858E935B09} = {E5C2B5C7-6C60-4240-8D15-5F549F3EF903}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E592602-AC00-40D0-8E2E-9ACA81DB0DF1}
