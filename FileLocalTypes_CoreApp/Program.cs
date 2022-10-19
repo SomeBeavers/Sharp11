@@ -1,5 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+file class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        var inTopLevel = new InnerClassInTopLevel
+        {
+            Name = "null"
+        };
+
+        Console.WriteLine();
+    }
+}
 
 file sealed class InnerClassInTopLevel
 {
