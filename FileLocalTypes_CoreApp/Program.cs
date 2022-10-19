@@ -8,8 +8,9 @@ file class Program
         {
             Name = "null"
         };
+        int test;
 
-        Console.WriteLine();
+        Console.WriteLine(inTopLevel);
     }
 }
 
