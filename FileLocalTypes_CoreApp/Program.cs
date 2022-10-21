@@ -1,18 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-file class Program
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-        var inTopLevel = new InnerClassInTopLevel
-        {
-            Name = "null"
-        };
-        int test;
 
-        Console.WriteLine(inTopLevel);
-    }
-}
+Console.WriteLine("Hello, World!");
+var inTopLevel = new InnerClassInTopLevel()
+{
+    Name = "null"
+};
+int test;
+
+Console.WriteLine(inTopLevel);
 
 file sealed class InnerClassInTopLevel
 {
