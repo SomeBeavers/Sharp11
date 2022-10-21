@@ -1,9 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 Console.WriteLine("Hello, World!");
+
+void file()
+{
+}
+
+file();
+
+
 var inTopLevel = new InnerClassInTopLevel()
 {
-    Name = "null"
+Name = "null"
 };
 int test;
 
@@ -27,4 +35,4 @@ public class UseInnerClassInTopLevel
     }
 }
 
-file class A{}
+file class A { }

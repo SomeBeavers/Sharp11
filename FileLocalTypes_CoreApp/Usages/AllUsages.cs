@@ -12,7 +12,7 @@ public class AllUsages
         }
 
         var privateInnerClasses = 
-            new List<PrivateInnerClass>().Where(x => x.Property.PublicMethod().Equals(null));
+            new List<PrivateInnerClass1>().Where(x => x.Property.PublicMethod().Equals(null));
 
 
         LocalFunction(fileClass);
@@ -21,7 +21,7 @@ public class AllUsages
     }
 }
 
-file partial class PrivateInnerClass
+file partial class PrivateInnerClass1
 {
     public AllUsagesFileClass? Property { get; }
 
@@ -33,8 +33,11 @@ file partial class PrivateInnerClass
     }
 }
 
-file partial class PrivateInnerClass
+file partial  class PrivateInnerClass1
 {
+    public PrivateInnerClass1()
+    {
+    }
 }
 
 file class AllUsagesFileClass
