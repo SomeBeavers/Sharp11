@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="QF\" />
     <Folder Include="Usages\" />
     <Folder Include="Refactorings\" />
   </ItemGroup>

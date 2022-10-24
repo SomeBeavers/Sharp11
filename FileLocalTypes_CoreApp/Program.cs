@@ -2,11 +2,11 @@
 
 Console.WriteLine("Hello, World!");
 
-void file()
-{
-}
+//void file()
+//{
+//}
 
-file();
+//file();
 
 
 var inTopLevel = new InnerClassInTopLevel()
