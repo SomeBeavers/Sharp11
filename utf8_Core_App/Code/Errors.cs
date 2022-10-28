@@ -2,8 +2,19 @@
 
 namespace utf8_Core_App.Code;
 
+//record MyRecord(ReadOnlySpan<byte> ReadOnlySpan)
+//{
+
+//}
+
+//[My(""U8)]
 public class Errors
 {
+
+    //const ReadOnlySpan<byte> x = "abc";
+
+    //void M(Span<byte> x = "abc"u8){}
+
     public void Test(ReadOnlySpan<byte> parameter)
     {
         //const string text = "hello \uD801\uD802";
@@ -56,4 +67,14 @@ public class Errors
         return u81;
     }
     //
+}
+
+public class MyAttribute : Attribute
+{
+    public MyAttribute(ReadOnlySpan<byte> parameter)
+    {
+    }
+    public MyAttribute(string parameter)
+    {
+    }
 }
