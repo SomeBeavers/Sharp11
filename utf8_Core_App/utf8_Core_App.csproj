@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="Code\" />
+    <Folder Include="Playground\" />
     <Folder Include="Refactorings\" />
     <Folder Include="QFCA\" />
   </ItemGroup>
