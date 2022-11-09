@@ -1,10 +1,11 @@
 ﻿using System.Linq.Expressions;
+using System.Numerics;
 
 namespace UnsignedRightShift_Core_App;
 
-public class Generic<T> where T : struct
+public class Generic<T> where T : INumber<T>
 {
-    public void Test(long parameter, uint uintParameter, ulong ulongParameter, nint nintParameter, nuint nuintParameter)
+    public void Test(T genericNumber,long parameter, uint uintParameter, ulong ulongParameter, nint nintParameter, nuint nuintParameter)
     {
         var @ulong = ulongParameter>>> (int)parameter;
         var @ulong2 = ulongParameter >> (int)parameter;
@@ -16,6 +17,9 @@ public class Generic<T> where T : struct
         var foo = nintParameter >>> (int)@ulong;
 
         nuint foo1 = nuintParameter>> (int)uintParameter;
+
+
+        var foo2 = genericNumber+genericNumber;
     }
 
 
