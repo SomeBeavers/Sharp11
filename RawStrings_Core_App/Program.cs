@@ -5,3 +5,11 @@ Console.WriteLine("Hello, World!");
 var s = """test string "with test";\n""";
 var s2 = """"comment is here:"""test comment""" is here;"""";
 string s3 ="""comment""";
+
+var format = string.Format("""
+    test
+    {0}
+    """,
+    1);
+
+Console.WriteLine(format);
