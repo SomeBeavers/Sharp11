@@ -10,13 +10,35 @@ public class InterpolatedString
         {field}
         """;
 
-    public void Test()
+    public void Test(DateTime parameter)
     {
         var json = """
                    {
                       "summary": "text",
-                      "length" : {
-                    };
+                      "length" : {  
+                   };
                    """;
+        var s1 = $$"""
+                      {test}
+                      {{parameter}}
+                      {{{parameter}}}
+                      """;
+        var v1 = $$"""X{{{1 + 1}}}Z""";
+// == X{2}Z
+
+        var s2 = $$"""
+            {{
+                field
+                + 
+                1
+            }}
+
+            """;
+
+        var singleLine = $$$"""
+    {{{s2}}}
+    
+    
+    """;
     }
 }

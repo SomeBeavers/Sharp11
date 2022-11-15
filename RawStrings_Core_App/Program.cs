@@ -1,10 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿var s1 = """ """;
+
 
 Console.WriteLine("Hello, World!");
 
+
 var s = """test string "with test";\n""";
 var s2 = """"comment is here:"""test comment""" is here;"""";
-string s3 ="""comment""";
+var s3 = """comment""";
 
 var format = string.Format("""
     test
@@ -12,4 +14,8 @@ var format = string.Format("""
     """,
     1);
 
-Console.WriteLine(format);
+var aC2 = $"""{"ARG"}[a-c]* """;
+
+Console.WriteLine(aC2);
+
+//Console.WriteLine(format);
