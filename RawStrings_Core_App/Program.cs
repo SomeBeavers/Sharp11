@@ -16,6 +16,12 @@ var format = string.Format("""
 
 var aC2 = $"""{"ARG"}[a-c]* """;
 
-Console.WriteLine(aC2);
+var s4 = """
+    {{"\"}}
+    test
+    {order_number}
+    """;
+
+Console.WriteLine(s4);
 
 //Console.WriteLine(format);
