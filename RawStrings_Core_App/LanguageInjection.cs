@@ -2,9 +2,14 @@
 
 public class LanguageInjection
 {
+
+        public string s = "";
+    public string Value => $"""
+        test string/*caret*/
+        """;
     public void Test(int order_number)
     {
-        var aC = """[a-c]*""";
+        var aC = """[""";
         var aC2 = """
     [a-c]*
     +

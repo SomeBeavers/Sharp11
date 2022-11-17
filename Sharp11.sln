@@ -131,6 +131,8 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RawStrings_VB", "RawStrings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawStrings_Core_Lib", "RawStrings_Core_Lib\RawStrings_Core_Lib.csproj", "{982F60B2-22B4-4196-9C7F-0E56BAA0F965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawStrings_Rider", "RawStrings_Rider\RawStrings_Rider.csproj", "{75750CB3-DFC2-4271-AA48-CBE61E9E7CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -349,6 +351,10 @@ Global
 		{982F60B2-22B4-4196-9C7F-0E56BAA0F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{982F60B2-22B4-4196-9C7F-0E56BAA0F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{982F60B2-22B4-4196-9C7F-0E56BAA0F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75750CB3-DFC2-4271-AA48-CBE61E9E7CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75750CB3-DFC2-4271-AA48-CBE61E9E7CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75750CB3-DFC2-4271-AA48-CBE61E9E7CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75750CB3-DFC2-4271-AA48-CBE61E9E7CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -406,6 +412,7 @@ Global
 		{7F8A8617-C0A1-424B-A3D3-E9066A5485CD} = {5C71F2BC-3648-4CC7-9D15-891C5B77B848}
 		{4CF56C34-E4C2-49CE-B268-623FA82E5E4B} = {5C71F2BC-3648-4CC7-9D15-891C5B77B848}
 		{982F60B2-22B4-4196-9C7F-0E56BAA0F965} = {5C71F2BC-3648-4CC7-9D15-891C5B77B848}
+		{75750CB3-DFC2-4271-AA48-CBE61E9E7CC3} = {5C71F2BC-3648-4CC7-9D15-891C5B77B848}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E592602-AC00-40D0-8E2E-9ACA81DB0DF1}

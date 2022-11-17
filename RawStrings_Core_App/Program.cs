@@ -21,7 +21,7 @@ var s4 = """
     test
     {order_number}
     """;
-
+var v = """👩""";
 Console.WriteLine(s4);
 
 //Console.WriteLine(format);
