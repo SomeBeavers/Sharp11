@@ -10,10 +10,13 @@ namespace ListPatterns_Framework
     {
         public void Test(int[] array)
         {
-            if (array is [1,2])
-            {
+            //if (array is [1,2])
+            //{
                 
-            }
+            //}
+
+           // var thirdItem = array[2];    // array[2]
+           // var lastItem = array[^1];    // array[new Index(1, fromEnd: true)]  
         }
     }
 }
