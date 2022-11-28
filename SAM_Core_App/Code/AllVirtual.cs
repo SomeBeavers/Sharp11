@@ -11,7 +11,7 @@ public abstract class AllVirtual
     }
 }
 
-interface IAllVirtual<T> where T: IAllVirtual<T>, new()
+public interface IAllVirtual<T> where T: IAllVirtual<T>, new()
 {
     static virtual T Method()
     {
@@ -40,6 +40,34 @@ interface IAllVirtual<T> where T: IAllVirtual<T>, new()
     }
 
     static virtual event Action E;
+}
+
+public class AllVirtual<T> : IAllVirtual<T> where T : IAllVirtual<T>, new()
+{
+    public static T Method()
+    {
+        return default;
+    }
+
+    public static string Name { get; set; }
+
+    public static event Action? E
+    {
+        add { }
+        remove { }
+    }
+}
+
+public class Use
+{
+    public void Test(AllVirtual<B> parameter)
+    {
+        var name = AllVirtual<B>.Name;
+    }
+}
+
+public class B : IAllVirtual<B>
+{
 }
 
 interface I1<T> where T : I1<T>
