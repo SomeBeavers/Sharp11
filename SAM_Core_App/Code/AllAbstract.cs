@@ -6,7 +6,81 @@ public abstract class AllAbstract
     public abstract string Name { get; set; }
 }
 
+public abstract class AllAbstract2 : IAbstractAllMembersInterface<AllAbstract2>, IAbstractAllMembersInterface2<AllAbstract2>
+{
+    public static AllAbstract2 Property { get; set; }
+    static AllAbstract2 IAbstractAllMembersInterface<AllAbstract2>.AbstractMethod(List<AllAbstract2> list)
+    {
+        return null;
+    }
+
+    static implicit IAbstractAllMembersInterface2<AllAbstract2>.operator AllAbstract2(string s)
+    {
+        return null;
+    }
+
+    static explicit IAbstractAllMembersInterface2<AllAbstract2>.operator string(AllAbstract2 t)
+    {
+        return null;
+    }
+
+    static AllAbstract2 IAbstractAllMembersInterface2<AllAbstract2>.operator ++(AllAbstract2 t)
+    {
+        return null;
+    }
+
+    static event Action<AllAbstract2>? IAbstractAllMembersInterface2<AllAbstract2>.Action
+    {
+        add { }
+        remove { }
+    }
+
+    static AllAbstract2 IAbstractAllMembersInterface2<AllAbstract2>.AbstractMethod(List<AllAbstract2> list)
+    {
+        return null;
+    }
+
+    static implicit IAbstractAllMembersInterface<AllAbstract2>.operator AllAbstract2(string s)
+    {
+        return "";
+    }
+
+    public static implicit operator AllAbstract2(string s)
+    {
+        return null;
+    }
+
+    static explicit IAbstractAllMembersInterface<AllAbstract2>.operator string(AllAbstract2 t)
+    {
+        return null;
+    }
+
+    static AllAbstract2 IAbstractAllMembersInterface<AllAbstract2>.operator ++(AllAbstract2 t)
+    {
+        return null;
+    }
+
+    static event Action<AllAbstract2>? IAbstractAllMembersInterface<AllAbstract2>.Action
+    {
+        add { }
+        remove { }
+    }
+}
+
 internal interface IAbstractAllMembersInterface<T> where T : IAbstractAllMembersInterface<T>
+{
+    public static abstract T Property { get; set; }
+    static abstract T AbstractMethod(List<T> list);
+
+    static abstract implicit operator T(string s);
+    public static abstract explicit operator string /*caret*/(T t);
+
+    static abstract T operator ++(T t);
+    static abstract event Action<T> Action;
+}
+
+
+internal interface IAbstractAllMembersInterface2<T> where T : IAbstractAllMembersInterface2<T>
 {
     public static abstract T Property { get; set; }
     static abstract T AbstractMethod(List<T> list);
