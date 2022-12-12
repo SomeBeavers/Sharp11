@@ -13,15 +13,27 @@ switch (span)
         break;
 }
 
-if (span == "Hello, World!")
+//if (span == "Hello, World!")
+//{
+//    Console.WriteLine("Hello, World!");
+//}
+//else if (span == "")
+//{
+//    Console.WriteLine("Span is whitespace");
+//}
+//else if (span is not null)
+//{
+//    Console.WriteLine("Span is not empty");
+//}
+//else if (span is null)
+//{
+//    Console.WriteLine("Span is null");
+//}
+
+
+
+void M(Span<char> xs)
 {
-    Console.WriteLine("Hello, World!");
-}
-else if (span == "")
-{
-    Console.WriteLine("Span is whitespace");
-}
-else
-{
-    Console.WriteLine("Span is not empty");
+    if (xs.SequenceEqual("aaa")) { }
+    else if (xs.SequenceEqual("bbb")) { }
 }
