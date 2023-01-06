@@ -8,6 +8,11 @@ public ref struct Struct1
     ref readonly int t4/*caret*/;
     readonly ref readonly int t5;
 
+    public ref readonly int t_2;
+    
+    static int test;
+    readonly int test2;
+
     public Struct1(int t, int t2, out int t4)
     {
         this.t = t;
